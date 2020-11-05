@@ -1,38 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fdfdfd;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  background-image: linear-gradient(to left, #325FC8, #723CC8);
 }
 
-.App-link {
-  color: #61dafb;
+.user {
+  width: 550px;
+  height: 500px;
+  border-radius: 15px !important;
+  position: relative;
+  padding-top: 5%;
+}
+.userTop {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: #545454;
+  background-color: #f6f6f6;
+  padding-bottom: 50px;
+  box-shadow: 0 -8px 15px 0 rgba(0, 0, 0, 0.2), 0 -8px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.userTitle {
+  padding-top: 66px;
+  font-size: 19px;
+}
+.userBottom {
+  height: 95%;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #ffffff;
+  padding: 20px;
+  overflow: scroll;
+  box-shadow: 0 -8px 15px 0 rgba(0, 0, 0, 0.2), 0 -8px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userGrid {
+  height: 370px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.app__name {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #545454;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #545454;
+}
+
+a:hover {
+  text-decoration: none;
+
+}
+
+a:active {
+  text-decoration: none;
+  color: #545454;
 }
