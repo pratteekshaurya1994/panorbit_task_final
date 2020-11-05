@@ -41,7 +41,7 @@ class HomePage extends Component {
                 <div className="user">
                     <div className="userTop">
                         <span className="userTitle">
-                            <p>Selettct An Account</p>
+                            <p>Select An Account</p>
                         </span>
                     </div>
                     <div className="userBottom">
