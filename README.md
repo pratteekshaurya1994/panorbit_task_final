@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Install the Following before running the App
+
+npm install axios
+npm install google-map-react
+npm install react-router-dom
 
 ## Available Scripts
 
